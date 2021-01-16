@@ -4,7 +4,94 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
+
 body {
+  display: flex;
+  flex-direction: column;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+main{
+  margin-bottom: 20rem;
+  height: 15rem;
+  background-image: url(/lab-css-instagram-clone/images/bgtile.png);
+}
+
+article{
+  justify-content: space-between;
+  display: flex;
+  margin: 4rem 13rem;
+  align-content: center;
+  width: 67rem;
+  height: 25rem;
+}
+
+.phone-container{
+  padding-inline-start: 2rem;
+  height: fit-content;
+  width: fit-content;
+}
+.container{
+  margin-right:20rem;
+  margin-left: 6rem;
+  justify-content: inherit;
+}
+
+.phone-container > #phone{
+  height: 25rem;
+}
+
+#home-login>#login{
+  height: inherit;
+  background-color: #1c5380;
+  background-image: url(/lab-css-instagram-clone/images/home.png);
+  background-repeat: no-repeat;
+}
+
+
+#info{
+  margin-right:2rem;
+  align-content: center;
+  width: 43rem;
+  padding: 1rem;
+  background-image: url(/lab-css-instagram-clone/images/frame.png);
+  background-repeat: no-repeat;
+}
+h2 {
+  margin: .5rem 15rem 0 2rem;
+  width: auto;
+  font-size: 2rem;
+  color: #06365f;
+}
+#p1,
+#p2,
+#p3{
+  margin-left: 2rem;
+  margin-right: 15rem;
+}
+
+.apps{
+  display: flex;
+  width: 30rem;
+  height: 3rem;
+  justify-content: space-evenly;
+}
+#apple >img,
+#android> img{
+  height: 2.5rem;
+}
+
+footer{
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-inline: 20rem;
+  margin-top: 2rem;
+}
+
+footer>p {
+  justify-content: center;
   margin: 0;
 }
