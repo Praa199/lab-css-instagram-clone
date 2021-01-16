@@ -42,12 +42,41 @@ article{
 .phone-container > #phone{
   height: 25rem;
 }
+div#home-login{
+  display: flex
+}
 
-#home-login>#login{
-  height: inherit;
-  background-color: #1c5380;
+#home-login>#home-container{
+  border: 1.5px solid #06365f;
+  width: 6.5rem;
+  height: 2.5rem;
+  background-color: #376e9b;
+  background: lighten;
   background-image: url(/lab-css-instagram-clone/images/home.png);
   background-repeat: no-repeat;
+  background-size:1.5rem;
+  background-position: .5rem;
+  margin: 1rem 0 1rem 4rem;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px  #06365f;
+}
+#home-container>button{
+  border: none;
+  background-color: transparent;
+  height: 2.5rem;
+  width: 6.5rem;
+  cursor: pointer;
+}
+#login{
+  width: auto;
+  position: absolute;
+  top: .5rem;
+  left: 3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 
@@ -58,9 +87,10 @@ article{
   padding: 1rem;
   background-image: url(/lab-css-instagram-clone/images/frame.png);
   background-repeat: no-repeat;
+  background-size: 35rem;
 }
 h2 {
-  margin: .5rem 15rem 0 2rem;
+  margin: .5rem 14rem 0 2rem;
   width: auto;
   font-size: 2rem;
   color: #06365f;
@@ -68,8 +98,8 @@ h2 {
 #p1,
 #p2,
 #p3{
-  margin-left: 2rem;
-  margin-right: 15rem;
+  margin-left: 2.3rem;
+  margin-right: 14rem;
 }
 
 .apps{
@@ -80,7 +110,7 @@ h2 {
 }
 #apple >img,
 #android> img{
-  height: 2.5rem;
+  height: 3.5rem;
 }
 
 footer{
@@ -88,10 +118,16 @@ footer{
   display: flex;
   justify-content: space-around;
   margin-inline: 20rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
+}
+footer>a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .8rem;
 }
 
 footer>p {
   justify-content: center;
   margin: 0;
+  font-size: .8rem;
 }
